@@ -103,34 +103,34 @@
       "url": "https://packages.unity.com"
     },
     "games.cheetah.auth.cerberus": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "games.cheetah.grpc": "2.36.6",
-        "games.cheetah.platform": "1.2.5",
-        "games.cheetah.auth.user": "1.2.5"
+        "games.cheetah.platform": "1.2.6",
+        "games.cheetah.auth.user": "1.2.6"
       },
       "url": "https://npm.registry.cheetah.games"
     },
     "games.cheetah.auth.cookie": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "games.cheetah.grpc": "2.36.6",
-        "games.cheetah.auth.cerberus": "1.2.5",
-        "games.cheetah.auth.user": "1.2.5",
-        "games.cheetah.platform": "1.2.5"
+        "games.cheetah.auth.cerberus": "1.2.6",
+        "games.cheetah.auth.user": "1.2.6",
+        "games.cheetah.platform": "1.2.6"
       },
       "url": "https://npm.registry.cheetah.games"
     },
     "games.cheetah.auth.user": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "games.cheetah.platform": "1.2.5"
+        "games.cheetah.platform": "1.2.6"
       },
       "url": "https://npm.registry.cheetah.games"
     },
@@ -144,60 +144,60 @@
       "url": "https://npm.registry.cheetah.games"
     },
     "games.cheetah.matches.factory": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "games.cheetah.grpc": "2.36.6",
-        "games.cheetah.platform": "1.2.5",
-        "games.cheetah.auth.user": "1.2.5",
-        "games.cheetah.matches.relay.shared": "1.2.5"
+        "games.cheetah.platform": "1.2.6",
+        "games.cheetah.auth.user": "1.2.6",
+        "games.cheetah.matches.relay.shared": "1.2.6"
       },
       "url": "https://npm.registry.cheetah.games"
     },
     "games.cheetah.matches.matchmaking": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "games.cheetah.grpc": "2.36.6",
-        "games.cheetah.platform": "1.2.5",
-        "games.cheetah.auth.user": "1.2.5",
-        "games.cheetah.matches.factory": "1.2.5",
-        "games.cheetah.matches.registry": "1.2.5"
+        "games.cheetah.platform": "1.2.6",
+        "games.cheetah.auth.user": "1.2.6",
+        "games.cheetah.matches.factory": "1.2.6",
+        "games.cheetah.matches.registry": "1.2.6"
       },
       "url": "https://npm.registry.cheetah.games"
     },
     "games.cheetah.matches.registry": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "games.cheetah.grpc": "2.36.6",
-        "games.cheetah.platform": "1.2.5",
-        "games.cheetah.auth.user": "1.2.5",
-        "games.cheetah.matches.relay": "1.2.5"
+        "games.cheetah.platform": "1.2.6",
+        "games.cheetah.auth.user": "1.2.6",
+        "games.cheetah.matches.relay": "1.2.6"
       },
       "url": "https://npm.registry.cheetah.games"
     },
     "games.cheetah.matches.relay": {
-      "version": "1.2.5",
-      "depth": 0,
+      "version": "1.2.6",
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "games.cheetah.messagepack": "1.4.0",
-        "games.cheetah.platform": "1.2.5",
+        "games.cheetah.platform": "1.2.6",
         "games.cheetah.grpc": "2.36.6",
-        "games.cheetah.matches.factory": "1.2.5"
+        "games.cheetah.matches.factory": "1.2.6"
       },
       "url": "https://npm.registry.cheetah.games"
     },
     "games.cheetah.matches.relay.shared": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 2,
       "source": "registry",
       "dependencies": {
-        "games.cheetah.platform": "1.2.5",
+        "games.cheetah.platform": "1.2.6",
         "games.cheetah.grpc": "2.36.6"
       },
       "url": "https://npm.registry.cheetah.games"
@@ -212,7 +212,7 @@
       "url": "https://npm.registry.cheetah.games"
     },
     "games.cheetah.platform": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {
