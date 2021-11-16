@@ -18,7 +18,8 @@ namespace Relay
 
         private async void OnEnable()
         {
-            clusterConnector = new ClusterConnector("127.0.0.1", 7777, false);
+            //clusterConnector = new ClusterConnector("127.0.0.1", 7777, false);
+            clusterConnector = new ClusterConnector("stage1.stage.syncario.com", 443, true);
             var ticket = await PlayerHelper.CreateNewPlayerAndMatchToBattle(clusterConnector);
             ConnectToRelay(ticket);
             CreateRelayObjects();
@@ -49,6 +50,8 @@ namespace Relay
                 return;
             }
 
+            CheetahClient.GetConnectionStatus(out var status);
+            Debug.Log(status);
             CheetahLong.Increment(ref objectA, 2, counter);
             CheetahDouble.Increment(ref objectB, 20, counter);
             CheetahDouble.Increment(ref objectB, 30, 10);
